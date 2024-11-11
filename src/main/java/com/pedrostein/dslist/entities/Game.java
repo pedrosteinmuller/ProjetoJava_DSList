@@ -63,6 +63,22 @@ public class Game {
 		this.title = title;
 	}
 
+	public Integer getYear() {
+		return year;
+	}
+
+	public void setYear(Integer year) {
+		this.year = year;
+	}
+
+	public String getPlatforms() {
+		return platforms;
+	}
+
+	public void setPlatforms(String platforms) {
+		this.platforms = platforms;
+	}
+
 	public String getGenre() {
 		return genre;
 	}
